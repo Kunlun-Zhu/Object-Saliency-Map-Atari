@@ -1,8 +1,15 @@
-Rainbow
+Object Saliency Map for Atari Games
 =======
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
-Rainbow: Combining Improvements in Deep Reinforcement Learning [[1]](#references).
+You can run this code by using the command 
+
+python main.py --evaluate --disable-cuda --model "./frostbite.pth" --evaluation-episodes 1 --render --game frostbite
+
+An pytorch pre-trained is needed and can be downloaded in the releases link below
+
+This project is mostly based on the Rainbow Project, and most of the code for saliency map was done by Ramitha
+Kunlun is in charge of making this project work functionally and make several changes.
 
 Results and pretrained models can be found in the [releases](https://github.com/Kaixhin/Rainbow/releases).
 
